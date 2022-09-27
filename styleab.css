@@ -1,0 +1,293 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Yesteryear";
+   text-transform: capitalize;
+ font-weight: normal;}
+ p {
+   font-family: "raleway", sans-serif;
+   font-size: 18px;
+ }
+
+.radient {
+    height: 580px;;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(./about-us-bg-banner.jpg);
+    background-color: var(#1414146e);
+    opacity: 0.9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.9s;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+    .rtxt {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: 400;
+        /* margin-top: 50px; */
+      }
+      .grtxt > h2 {
+        font-size: 45px;
+      }
+      .grtxt > p {
+        font-size: 20px;line-height:1.6;
+      }
+      ul {
+        list-style-type: none;
+      }
+      ul li {
+        float: left;
+      }
+      ul li a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: white;
+        font-family: "raleway", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+      }
+      .ul {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-right: 80px;
+      }
+      .lg {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-left: 70px;
+        font-size: 16px;}
+        .hr {
+            width: 147px;
+            border-bottom: 2px solid #f84660;
+           
+            padding: 5px;
+            margin-left: 15px;
+            margin-bottom: 20px;
+          }
+          .hrp{ display: flex;
+            justify-content: center;}
+
+            
+
+.second > h2 h4 {
+    color: black;
+  }
+.second >  h4 {
+    color: black;
+ font-size: 27px;margin: 0px 0px 27px; }
+  .second > p {
+color: #4B4F58; 
+font-size: 20px;line-height:1.6; }
+.first{width: 50%;
+height: 348px;}
+.first >  h4 {
+    color: black;
+ font-size: 27px;margin: 20px 0px 27px; }
+  .first > p {
+color: #4B4F58; 
+font-size: 20px; text-align: left;line-height:1.6; }
+.sec2{width: 100%;background-color: white;
+  height: 100vh;
+
+padding: 80px 0px 85px;
+margin-top: 80px;}
+.scnd{width: 50%;
+height: 348px;
+display: flex;
+flex-direction: column;}
+.scnd >  h4 {
+    color: black;
+ font-size: 27px;margin: 20px 0px 27px; }
+  .scnd > p {
+color: #4B4F58; line-height:1.6;
+font-size: 20px; text-align: left; }
+.sectxt{display: 
+  flex;
+width: 100%;margin-left: 70px;
+margin-top: 70px;}
+.adient {
+  height: 376px;
+  width: 100%;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(250, 210, 85, 0.8),
+      rgba(250, 210, 85, 0.8)
+    ),
+    url(./cake-biscuits-bg.jpg);
+  background-color: var(#fad255);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.9s;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 70px;}
+.last{
+  background-color:#ef1548;
+  height: 100%;
+  width: 100%;color: #f6f6f8;
+}
+.last>input{color: black;
+}
+.enq{width: 171px;
+height: 48px;background-color: #d14f62;
+color: white;border:none;border-radius: 100px;}
+.enq:hover{background-color: #ef1548;}
+.scl{
+  width: 59px;
+  height: 59px;
+  border-radius: 500px;
+  background-color: #f6f6f8;padding: 12px;
+  margin-right: 5.5px;
+ background-size: cover;
+}
+.scl:hover{background-color:#ef1548;
+}
+
+.scl>.fa-facebook:hover{color: #f6f6f8  !important;}
+.scl>.fa-twitter:hover{color: #f6f6f8 !important;}
+.scl>.fa-instagram:hover{color: #f6f6f8 !important;}
+.scl>.fa-youtube-play:hover{color:  #f6f6f8 !important;}
+.footer{
+  background-color: #ef1548;
+  padding: 50px 0px;
+  color: #f6f6f8;
+  display: flex;
+  justify-content: space-around;
+}
+.al {
+  display: flex;
+  align-items: center;
+  
+  margin-right: 80px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yesteryear";
+  text-transform: capitalize;
+  font-weight: normal;
+}
+p {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+}
+
+.radient {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(./about-us-bg-banner.jpg);
+  background-color: var(#1414146e);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.1s;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.rtxt {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  /* margin-top: 50px; */
+}
+.grtxt > h2 {
+  font-size: 45px;
+}
+.grtxt > p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: "raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-right: 80px;
+}
+.lg {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 70px;
+  font-size: 16px;
+}
+.hr {
+  width: 147px;
+  border-bottom: 2px solid #f84660;
+
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.hrp {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.cakes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
